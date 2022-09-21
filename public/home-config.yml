@@ -1,0 +1,14 @@
+pageInfo:
+  title: Homelab
+  description: Homelab links
+  footerText: ''
+
+sections:
+  - name: search engines
+    items:
+      - title: bing
+        url: https://www.bing.com
+      - title: duckduckgo
+        url: https://duckduckgo.com/
+      - title: google
+        url: https://www.google.com/

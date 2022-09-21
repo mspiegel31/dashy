@@ -1,19 +1,29 @@
----
-# Page meta info, like heading, footer text and nav links
-pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
 appConfig:
-  theme: colorful
+  theme: nord
+  customColors:
+    material-dark-original:
+      primary: '#f36558'
+      background: '#39434C'
+      background-darker: '#eb615c'
+      material-light: '#f36558'
+      item-text-color: '#ff948a'
+      curve-factor: 5px
+  enableErrorReporting: true
+  layout: auto
+  iconSize: medium
+  language: en
+  enableFontAwesome: true
+  routingMode: hash
 
-# Main content - An array of sections, each containing an array of items
+pageInfo:
+  title: Links!
+  description: Links for things
+  footerText: ''
+
+pages:
+  - name: Homelab
+    path: home-config.yml
+
 sections:
 - name: Getting Started
   icon: fas fa-rocket
